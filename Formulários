@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulario</title>
+  </head>
+  <body>
+    <form action="" id="CadastroForm" method="get">
+      <label for="PrimeiroNome">Primeiro Nome</label>
+      <input type="text" id="PrimeiroNome" />
+
+      <br />
+      <p>Linguagem:</p>
+      <input type="radio" id="html" name="Linguagem" value="html" />
+      <label for="html">HTML</label>
+      <input type="radio" id="css" name="Linguagem" value="css" />
+      <label for="css">CSS</label>
+
+      <br />
+      <p>Selecione as frutas que você não come:</p>
+      <input type="checkbox" id="Banana" name="frutas" value="Banana" />
+      <label for="Banana"> Banana </label> <br />
+      <input type="checkbox" id="Kiwi" name="frutas" value="Kiwi" />
+      <label for="Kiwi"> Kiwi </label> <br />
+      <input type="checkbox" id="Maçã" name="frutas" value="Maçã" />
+      <label for="Maçã"> Maçã </label>
+      <br />
+      <p> Digite sua senha: </p>
+      <input
+        type="password"
+        name="senha"> <br>  
+        <p> Digite seu melhor e-mail: </p>
+        <input
+        type="email"
+        name="email"> 
+        <p> Qual a data de nascimento e hora? </p>
+        <input
+        type="datetime-local"> 
+        <p> Qual a sua idade</p>
+        <input 
+        type="number">
+        <p> Qual o melhor número para ligarmos? </p>
+        <input
+        type="tel" placeholder="(xx)xxxxx-xxxx" pattern="[1-9]{7}-[1-9]{4}"> <br>
+        <input
+        type="time">
+      <input type="submit" /> <br />
+      <input type="reset" /> <br />
+    </form>
+  </body>
+</html>
